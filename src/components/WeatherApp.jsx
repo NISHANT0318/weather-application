@@ -16,7 +16,7 @@ export default function WeatherApp() {
 
     }
 
-    const apiKey= "69a70fc4859ef133eef0b67c59a04fa9"
+    const apiKey= import.meta.env.VITE_APP_WEATHER_API_KEY
 
     useEffect(()=>{
         const defaultFetch = async ()=>{
